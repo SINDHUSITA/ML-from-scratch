@@ -15,8 +15,9 @@ class LinearRegression:
             y_pred = np.dot(X, self.weights) + self.bias
 
             # compute grads
-            dw = (1/n) * (np.dot(X.T, (y_pred - y)))
-            db = (1/n) * (np.sum(y_pred - y))
+            error = y_pred - y
+            dw = (2/n) * (np.dot(X.T, error))
+            db = (2/n) * (np.sum(error))
 
             # update params
             self.weights -= self.learning_rate * dw
