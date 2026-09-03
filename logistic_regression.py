@@ -58,6 +58,7 @@ if __name__ == "__main__":
         print("Accuracy:iter: ", accuracy, iter)
     
     fig = plt.plot(iters, accuracies)
+    plt.title("No. of iterations vs Accuracy:")
     plt.show()
 
 
