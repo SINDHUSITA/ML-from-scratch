@@ -8,3 +8,5 @@ Understanding and implementing core ML Algorithms from scratch
 
 <img width="743" height="556" alt="image" src="https://github.com/user-attachments/assets/4cb0fbdd-eb94-4cc0-a802-74e36acdae41" />
 
+## Logistic Regression Plot
+<img width="593" height="447" alt="image" src="https://github.com/user-attachments/assets/a7b4ef76-3e9f-47ff-9a6b-3bdece826b05" />
