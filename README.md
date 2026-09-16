@@ -13,3 +13,7 @@ Understanding and implementing core ML Algorithms from scratch
 
 ## Logistic Regression Multi class plot
 <img width="575" height="443" alt="image" src="https://github.com/user-attachments/assets/36b96153-0933-41e8-b285-5db947ac76d2" />
+
+## LSTM with PyTorch Training
+<img width="422" height="316" alt="image" src="https://github.com/user-attachments/assets/5bdc803e-29a3-4f5d-b635-4723758ae3df" />
+
