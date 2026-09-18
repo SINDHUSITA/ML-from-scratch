@@ -50,6 +50,7 @@ if __name__ == "__main__":
     print("Final assignments: ", cluster_assignments)  
     plt.plot(distances)
     plt.xlabel("Iteration")
+    plt.title("K-Means Convergence")
     plt.ylabel("SSE")
     plt.show()
 
