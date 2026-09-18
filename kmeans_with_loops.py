@@ -20,9 +20,9 @@ def get_eu_distance(a, b):
 
                           
 if __name__ == "__main__":
-    n_samples = 100
+    n_samples = 1000
     n_features = 5
-    k = 2
+    k = 5
     max_iters = 100
 
     points = np.random.randn(n_samples, n_features)
@@ -45,9 +45,13 @@ if __name__ == "__main__":
              print("CONVERGENCE")
              break
         centroids = new_centroids
+    test_samples = 5
+    new_points = np.random.randn(test_samples, n_features)
+    inference_cluster_assignments = np.zeros(test_samples)
+    inference_cluster_assignments = assign_clusters(inference_cluster_assignments, centroids, new_points)
+    print("inference_cluster_assignments", inference_cluster_assignments)
+
     
-    
-    print("Final assignments: ", cluster_assignments)  
     plt.plot(distances)
     plt.xlabel("Iteration")
     plt.title("K-Means Convergence")
