@@ -18,4 +18,5 @@ Understanding and implementing core ML Algorithms from scratch
 <img width="422" height="316" alt="image" src="https://github.com/user-attachments/assets/5bdc803e-29a3-4f5d-b635-4723758ae3df" />
 
 ## KMeans Clustering with loops
+<img width="700" height="185" alt="image" src="https://github.com/user-attachments/assets/9354e425-b067-415b-a99d-6e972359c26c" />
 <img width="588" height="450" alt="image" src="https://github.com/user-attachments/assets/96d27c24-e7cb-4c02-8e68-68c4b91303b9" />
